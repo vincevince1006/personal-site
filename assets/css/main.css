@@ -1,0 +1,40 @@
+---
+---
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: #000814;
+    }
+    body {
+        background-size: 40px 40px;
+        background-image: radial-gradient(circle, #959595b7 1px, rgba(0, 0, 0, 0) 1px);
+    }
+    h2 {
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+    h3 {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+    h4 {
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+    }
+}
+
+.slanted-edge {
+    --p: 70px;
+    height: 100px;
+    aspect-ratio: 1;
+    clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - var(--p)));
+    background: #C44D58;
+  }

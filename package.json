@@ -1,0 +1,17 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "mostly for postcss",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vince",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.4",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7"
+  }
+}

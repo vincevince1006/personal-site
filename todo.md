@@ -1,0 +1,9 @@
+- jekyll SEO plugin as an include in head
+- skip to main
+- favicon
+- social links
+- make a collection for projects
+    - goes in config.yml
+    - collections_dir: my_collections so it's all in the same place
+    - set output to true
+    - collection is project with values: title, short_desc, date, preview_img, body content for the page itself

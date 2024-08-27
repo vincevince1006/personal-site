@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+    {% include head.html %}
+    <body>
+        {% include header.html %}
+    <main id="main">
+        {{ content }}
+    </main>
+    <footer class="container mx-auto py-4">
+        <p>{{ site.time | date: '%Y' }} | Made with Jekyll and Tailwind</p>
+    </footer>
+    </body>
+</html>
