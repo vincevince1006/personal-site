@@ -32,3 +32,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'jekyll-postcss'
 gem 'csv', '~> 3.0'
 gem 'base64', '~> 0.1.0'
+gem 'logger', '~> 1.6'
