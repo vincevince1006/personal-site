@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.ruby-version
 .DS_Store
 node_modules
 token.txt
