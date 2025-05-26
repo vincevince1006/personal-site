@@ -6,16 +6,21 @@
 @tailwind utilities;
 
 @layer base {
+    :root {
+        --color-primary: #78290F;
+        --color-text: #06121A;
+    }
     html {
         font-family: "Red Hat Display", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
-        color: #000814;
+        color: var(--color-text);
+        font-size: 18px;
     }
     body {
         background-size: 40px 40px;
-        background-image: radial-gradient(circle, #959595b7 1px, rgba(0, 0, 0, 0) 1px);
+        background-image: radial-gradient(circle, #95959544 1px, rgba(0, 0, 0, 0) 1px);
     }
     h2 {
         font-size: 2.5rem;
@@ -36,5 +41,24 @@
     height: 100px;
     aspect-ratio: 1;
     clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - var(--p)));
-    background: #C44D58;
-  }
+    background: var(--color-text);
+}
+
+.slanted-edge--reverse {
+    --p: 70px;
+    height: 180px;
+    width: 100%;
+    aspect-ratio: 1;
+    clip-path: polygon(0 0, 100% var(--p), 100% 100%, 0 100%);
+}
+
+.decorative-divider {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 17%, rgba(120,41,15,1) 52%, rgba(79,93,117,1) 86%);
+    height: 0.5rem;
+    width: 100%;
+}
+
+.case-study__section-body p {
+    margin: 1rem 0;
+}

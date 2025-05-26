@@ -13,7 +13,14 @@ module.exports = {
         fontFamily: {
           heading: ['DM Serif Display', 'sans-serif'],
         },
-        extend: {},
+        extend: {
+          colors: {
+            primary: '#78290F',
+            beige: '#FFECD1',
+            teal: '#145B66',
+            plat: '#DCDEE0',
+          },
+        },
     },
     plugins: []
   }

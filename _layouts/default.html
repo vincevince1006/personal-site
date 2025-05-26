@@ -6,8 +6,6 @@
     <main id="main">
         {{ content }}
     </main>
-    <footer class="container mx-auto py-4">
-        <p>{{ site.time | date: '%Y' }} | Made with Jekyll and Tailwind</p>
-    </footer>
+        {% include footer.html %}
     </body>
 </html>

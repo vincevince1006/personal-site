@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<section class="max-w-5xl flex flex-col my-4 mx-4 md:mx-auto">
+<div class="container mx-auto my-4">
+
+<p class="my-4"><small><a class="underline text-teal" href="/">&larr; Back to Portfolio</a></small></p>
+
+<section>
+    <ul class="flex flex-row flex-wrap my-4">
+        {% for tag in page.tags %}
+            <li class="px-2 mr-4 mb-2 bg-slate-100 rounded-lg border-gray-200 border"><small>{{ tag }}</small></li>
+        {% endfor %} 
+    </ul>
+<p class="mb-2"><small class="font-bold text-primary">{{ page.year }}</small></p>
+<h2 class="font-heading">{{ page.title }}</h2>
+</section>
+
+<section class="lg:w-3/5 my-6">
+    <blockquote class="mb-6 mt-0 text-xl/8 text-gray-700">{{ page.callout }}</blockquote>
+    <p>{{ page.summary | markdownify  }}</p>
+</section>
+
+<!-- Research Process, if any. might make this a list style with icons or something to show the ideation phase, questions asked, how it was applied to design. Make each section conditional, and the parent-most section! -->
+
+{% if page.process %}
+<section class="flex flex-row md:flex-col">
+<div class="lg:w-3/5 mt-10">
+    <h3 class="font-heading mt-2">Design Process</h3>
+    {% for x in page.process %}
+    <div class="my-6 py-6 case-study__section-body">
+        <h4 class="mb-2">{{ x.phase }}</h4>
+        {{ x.description | markdownify }}
+        <div class="mt-6">
+            <h5 class="font-semibold my-2">Findings</h5>
+            <p>{{ x.findings | markdownify }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+</section>
+{% endif %}
+
+<!-- UI Design challenges. Show screens as they were designed, considerations, solutions to challenge. So Challenge > considerations > solutions. Maybe 2-3 each with specific screen captures and sectioned out. -->
+
+{{ content }}
+
+</div>
+</section>
