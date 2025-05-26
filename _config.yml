@@ -34,8 +34,8 @@ postcss:
 exclude:
    - .sass-cache/
    - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
+#   - gemfiles/
+#   - Gemfile
    - Gemfile.lock
    - todo.md
 #   - node_modules/
