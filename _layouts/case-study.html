@@ -31,7 +31,7 @@ layout: default
     {% for x in page.process %}
     <div class="my-6 py-6 case-study__section-body">
         <h4 class="mb-2">{{ x.phase }}</h4>
-        {{ x.description | markdownify }}
+        <p>{{ x.description | markdownify }}</p>
         <div class="mt-6">
             <h5 class="font-semibold my-2">Findings</h5>
             <p>{{ x.findings | markdownify }}</p>
