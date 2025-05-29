@@ -1,7 +1,7 @@
 ---
 title: NASA ProSAMS
 position: Designer, Researcher
-short_desc: SBIR-STTR application and award management software for NASA's small business accelerator program.
+short_desc: SBIR-STTR funding application and management software for NASA's small business accelerator program.
 year: 2022-2024
 preview_img: img.png
 postition: 'a'
@@ -19,6 +19,8 @@ process:
         Users felt like they spent too much time in the current EHB filling out applications not from policy or program complexity, but because the system didn't break things down into smaller steps or save people's work. 
         
         In fear of data loss, a lot of users ended up with poor data quality because they were working on applications in Word or outside software, then copying/pasting into the EHB. We had to build for data integrity in the new system, but also reduce the amount of information needed to be filled out on each screen, all while not breaking the application's flow that mirrors policy requirements from the federal government.
+      image1: ""
+      image2: ""
     - phase: Ideation
       description: | 
         We drew up user personas and journey maps during each sprint before any mockups were made so that we had our target users in mind. This exercise also helped business analysts and engineers see that user needs were more than just a refreshed UI - these were people with a decent amount of technical experience but had frustration with the status quo. Our BAs were utilized for their in-depth product knowledge that helped us envision the roadmap for new features, and what to design based on their success criteria.

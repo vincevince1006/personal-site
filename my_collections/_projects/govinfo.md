@@ -1,7 +1,7 @@
 ---
 title: Govinfo.gov
 position: Designer, Researcher, Development
-short_desc: My first federal contract, I was the sole designer on a team of engineers that maintained an official digital document repository for the U.S. Government.
+short_desc: An official digital document repository for the U.S. Government, focusing on congressional documents and federal regulations.
 year: 2019-2021
 preview_img: img.png
 postition: 'a'
