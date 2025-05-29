@@ -6,7 +6,7 @@ title: Homepage
 <section>
     <div class="container py-6 mx-4 md:mx-auto">
     <div class="max-w-5xl flex flex-col lg:gap-6 sm:flex-row lg:justify-between mx-auto content-center">
-        <div class="w-1/4 lg:my-4 mx-auto lg:px-4">
+        <div class="w-1/4 lg:my-4 mx-6 lg:px-4">
             <img class="lg:w-64 w-32" src="/assets/images/profile.png" />
         </div>
         <div class="w-3/4 my-4 pr-4">
@@ -37,7 +37,7 @@ title: Homepage
     <div class="flex flex-col flex-wrap">
     {% assign sorted_projects = site.projects | sort: 'position' | reverse %}
     {% for project in sorted_projects %}
-        <div class="flex flex-col py-6">
+        <div class="flex flex-col py-4">
         <div class="container mx-auto">
             {% if project.reversed %}
             <section class="flex flex-col md:flex-row flex-col-reverse md:flex-row-reverse gap-6 mb-12">

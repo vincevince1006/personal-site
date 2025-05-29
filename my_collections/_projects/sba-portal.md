@@ -21,6 +21,8 @@ process:
         The legacy system didn't follow consistent design patterns, have intuitive places to do financial reporting and solicit funding awards, or collect data consistently across multiple federal agency APIs. 
         
         The biggest value adds for the new product would be implementing a standard UI system, and providing better navigational landmarks so users didn't feel lost. There was certainly frustration around the question of "where am I?".
+      case_img:
+      case_img2: 
     - phase: Ideation
       description: | 
         We imagined a new system aligned with both the United States Web Design System (USWDS) framework and that had less ambiguous UI patterns. In addition, we crafted journey maps and worked with our business analysts to capture what the current system did, and how to best replicate it in the new one. 
