@@ -1,11 +1,11 @@
 # Site settings
 
-title: vnncctt.com
+title: vnncctt.info
 email: vincevince1006@gmail.com
 description: >- # this means to ignore newlines
   Portfolio site to showcase the work I've done across my UI/UX career, so far.
 baseurl: "/" # the subpath of your site
-url: "https://vnncct.com"
+url: "https://vnncct.info"
 github_username: vincevince1006
 lang: "en-US"
 

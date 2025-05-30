@@ -26,9 +26,11 @@ process:
         We drew up user personas and journey maps during each sprint before any mockups were made so that we had our target users in mind. This exercise also helped business analysts and engineers see that user needs were more than just a refreshed UI - these were people with a decent amount of technical experience but had frustration with the status quo. Our BAs were utilized for their in-depth product knowledge that helped us envision the roadmap for new features, and what to design based on their success criteria.
       findings: | 
         In the midst of getting a feel for the future of the ProSAMS interface and user journey, the client changed the framework they wanted to use from Angular to React. Our engineering resources had to adapt quickly, so we knew our initial designs needed some flexibility to ensure we kept to deadlines. We identified these gaps early on with the team's technical lead, including them in on our design whiteboarding sessions and adjusting our expectations before we sunk any time into prototypes.
+      image1: "/assets/images/case-study/nasa/persona-map.png"
     - phase: Design
       description: | 
         There was going to be a lot of screens for each release. Our product managers had to adjust release timelines based on client expectations. Therefore, a simple, re-usable design system that focused on the essential form elements and could be broken down easily for mobile would be our best bet. We on-boarded the new developers to the USWDS design system, showing how a lot of elements were already built out and could easily be blended in with the layout customizations for ProSAMS. 
       findings: | 
         NASA didn't have an official web design standards document when we started, so we did an analysis of their other websites and matched both the typography and color palette while mimicking some of their pre-existing print graphics standards. Working with another designer, we came up with a division of workload while agreeing on layout, navigation, and other component standardizations. Aesthetics were kept minimal to focus on meeting user expectations for data collection and meeting NASA policies around SBIR-STTR data collection.
+      image1: "/assets/images/case-study/nasa/login.png"
 ---

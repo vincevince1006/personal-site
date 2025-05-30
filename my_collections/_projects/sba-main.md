@@ -7,9 +7,9 @@ preview_img: img.png
 postition: 'a'
 tags: [UI Design, Website, Drupal, Search Applications]
 layout: case-study
-callout: I upgraded the site's design to show it is the authoritative source for SBIR-STTR awards and associated data. A chief complaint was the old design didn't convey that this was a trustworthy or active program. My team has helped fix that through good design - the client has continued to receive positive feedback and more user accounts created for managing SBIR-STTR data.
+callout: My team lead the re-design of the authoritative source for U.S. small business federal seed funding, moving it to a more modern, updated design. The client has continued to receive positive feedback, and noticably more user accounts created for SBIR-STTR applicants and awardees.
 summary: |
-    Congress appropriates around $4 Billion a year for SBIR-STTR funding awards that small businesses can take advantage of for their projects. To promote this program, their new website needed a revamped search tool, updated content for applicants looking to utilize the program, and dynamic content and visualizations to showcase program successes.
+    Congress appropriates around $4 Billion a year for SBIR-STTR funding awards that small businesses can take advantage of for their projects. To promote this program, their new website needed a revamped search tool, updated page content for applicants looking to utilize the program, and a better authoring process for more frequent site updates.
 reversed: true
 process: 
     - phase: Discovery
