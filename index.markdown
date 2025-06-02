@@ -14,7 +14,7 @@ title: Homepage
                 <span class="font-heading">Vincent Dubay.</span>
                 <p class="text-xl mt-2">I help lead the modernization of complex applications and websites through design best practices.</p>
             </h2>
-            <p class="max-w-lg">Launching new, re-vamped versions of outdated software is where I thrive. I facilitate cross-functional requirements gathering with clients, engineers, and business analysts, utilize and advocate for design systems, and write UI code for design cohesion.</p>
+            <p class="max-w-lg">Launching new versions of outdated software is where I thrive. I facilitate cross-functional requirements gathering with clients, engineers, and business analysts, utilize and advocate for design systems, and can even write UI code for design cohesion.</p>
             <div class="inline-flex gap-4 mt-4 mx-2">
                 <a href="https://www.linkedin.com/in/vincent-dubay-04108544/" target="_blank"><img class="size-6" src="/assets/images/linkedin.svg" alt="Icon: Linkedin" /><span class="sr-only">Linkedin</span></a>
                 <a href="https://dribbble.com/lordseagull/" target="_blank"><img class="size-6" src="/assets/images/dribbble.svg" alt="Icon: Dribbble" /><span class="sr-only">Dribbble</span></a>
@@ -34,17 +34,12 @@ title: Homepage
     <div class="container mx-auto my-4">
         <h3 class="font-heading">Portfolio</h3>
     </div>
-    <div class="flex flex-col flex-wrap">
+    <div class="container mx-auto my-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8">
     {% assign sorted_projects = site.projects | sort: 'position' | reverse %}
     {% for project in sorted_projects %}
-        <div class="flex flex-col py-4">
-        <div class="container mx-auto">
-            {% if project.reversed %}
-            <section class="flex flex-col md:flex-row flex-col-reverse md:flex-row-reverse gap-6 mb-12">
-            {% else %}
-            <section class="flex flex-col flex-col-reverse md:flex-row gap-6 mb-12">
-            {% endif %}
-            <div class="md:w-2/5">
+            <a class="bg-white rounded-lg shadow-md p-8 border border-gray-200 hover:shadow-lg transition-shadow" href="{{project.url}}">
+            <div>
                 <h4 class="font-semibold mb-4">{{project.title}}</h4>
                 <p class="mb-4">{{project.short_desc}}</p>
                 <ul class="flex flex-wrap flex-row mb-6">
@@ -52,14 +47,10 @@ title: Homepage
                     <li class="px-2 my-1 mr-2 bg-slate-100 rounded-lg border-gray-200 border"><small>{{ tag }}</small></li>
                 {% endfor %} 
                 </ul>
-                    <a class="inline-block border-primary border-b-4 pb-2 hover:pb-1 px-2 transition-all hover:transition-all bg-white" href="{{project.url}}">Case Study &rarr;</a>
+                    <p class="inline-block border-primary border-b-4 pb-2 px-2 bg-white">Case Study &rarr;</p>
             </div>
-            <div class="w-3/5">
-                <img src="/assets/images/sbir-showcase.png" />
-            </div>
-            </section>
-        </div>
-        </div>
+            </a>
     {% endfor %}
+    </div>
     </div>
 </section>
