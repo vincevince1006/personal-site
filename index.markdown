@@ -4,22 +4,22 @@ title: Homepage
 ---
 
 <section>
-    <div class="container py-6 mx-4 md:mx-auto">
-    <div class="max-w-5xl flex flex-col lg:gap-6 sm:flex-row lg:justify-between mx-auto content-center">
-        <div class="w-1/4 lg:my-4 mx-6 lg:px-4">
-            <img class="lg:w-64 w-32" src="/assets/images/profile.png" />
-        </div>
-        <div class="w-3/4 my-4 pr-4">
-            <h2 class="mb-4">
-                <span class="font-heading">Vincent Dubay.</span>
-                <p class="text-xl mt-2">I help lead the modernization of complex applications and websites through design best practices.</p>
-            </h2>
-            <p class="max-w-lg">Launching new versions of outdated software is where I thrive. I facilitate cross-functional requirements gathering with clients, engineers, and business analysts, utilize and advocate for design systems, and can even write UI code for design cohesion.</p>
-            <div class="inline-flex gap-4 mt-4 mx-2">
-                <a href="https://www.linkedin.com/in/vincent-dubay-04108544/" target="_blank"><img class="size-6" src="/assets/images/linkedin.svg" alt="Icon: Linkedin" /><span class="sr-only">Linkedin</span></a>
-                <a href="https://dribbble.com/lordseagull/" target="_blank"><img class="size-6" src="/assets/images/dribbble.svg" alt="Icon: Dribbble" /><span class="sr-only">Dribbble</span></a>
-                <a href="https://github.com/vincevince1006" target="_blank"><img class="size-6" src="/assets/images/github.svg" alt="Icon: Github" /><span class="sr-only">Github</span></a>
-                <a href="mailto:vincevince1006@gmail.com" target="_blank"><img class="size-6" src="/assets/images/email.svg" alt="Icon: Email me" /><span class="sr-only">Email me</span></a>
+    <div class="container py-6 md:mx-auto">
+    <div class="max-w-5xl flex flex-col lg:gap-6 lg:justify-between mx-auto content-center">
+        <div class="flex flex-col md:flex-row lg:my-4 lg:px-4 items-center">
+            <div class="flex w-full md:w-1/4 md:justify-center mb-6 md:mb-0">
+                <img class="w-48" src="/assets/images/profile.png" />
+            </div>
+            <div class="md:w-3/4 px-4">
+                <h2 class="font-heading">Vincent Dubay.</h2>
+                <p class="max-w-xl text-xl mt-2">I help lead the modernization of complex applications and websites through design best practices.</p>
+                <p class="max-w-xl mt-4">Launching new versions of outdated software is where I thrive. I facilitate cross-functional requirements gathering with clients, engineers, and business analysts, utilize and advocate for design systems, and can even write UI code for design cohesion.</p>
+                <div class="inline-flex gap-4 mt-4 mx-2">
+                    <a href="https://www.linkedin.com/in/vincent-dubay-04108544/" target="_blank"><img class="size-6" src="/assets/images/linkedin.svg" alt="Icon: Linkedin" /><span class="sr-only">Linkedin</span></a>
+                    <a href="https://dribbble.com/lordseagull/" target="_blank"><img class="size-6" src="/assets/images/dribbble.svg" alt="Icon: Dribbble" /><span class="sr-only">Dribbble</span></a>
+                    <a href="https://github.com/vincevince1006" target="_blank"><img class="size-6" src="/assets/images/github.svg" alt="Icon: Github" /><span class="sr-only">Github</span></a>
+                    <a href="mailto:vincevince1006@gmail.com" target="_blank"><img class="size-6" src="/assets/images/email.svg" alt="Icon: Email me" /><span class="sr-only">Email me</span></a>
+                </div>
             </div>
         </div>
         </div>
@@ -27,7 +27,7 @@ title: Homepage
 </section>
 
 <div class="px-4">
-    <div class="md:max-w-2xl lg:max-w-5xl decorative-divider mx-auto px-2 rounded-md"></div>
+    <div class="max-w-3xl lg:max-w-5xl decorative-divider mx-auto px-2 rounded-md"></div>
 </div>
 
 <section class="max-w-5xl flex flex-col py-6 mx-4 md:mx-auto">
@@ -38,8 +38,9 @@ title: Homepage
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8">
     {% assign sorted_projects = site.projects | sort: 'position' | reverse %}
     {% for project in sorted_projects %}
-            <a class="bg-white rounded-lg shadow-md p-8 border border-gray-200 hover:shadow-lg transition-shadow" href="{{project.url}}">
-            <div>
+            <a class="bg-white rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow" href="{{project.url}}">
+            <img class="rounded-tr-lg rounded-tl-lg" src="/assets/images/{{ project.hero-img }}" />
+            <div class="p-8">
                 <h4 class="font-semibold mb-4">{{project.title}}</h4>
                 <p class="mb-4">{{project.short_desc}}</p>
                 <ul class="flex flex-wrap flex-row mb-6">

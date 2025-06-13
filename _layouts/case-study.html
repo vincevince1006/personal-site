@@ -14,13 +14,13 @@ layout: default
         {% endfor %} 
     </ul>
 <p class="mb-2"><small class="font-bold text-primary">{{ page.year }}</small></p>
+    {% if page.link %}
+        <p class="mb-4"><a class="underline text-teal" href="{{ page.link }}">Visit Website</a></p>
+    {% endif %}
 <h2 class="font-heading">{{ page.title }}</h2>
 </section>
 
 <section class="lg:w-3/5 my-6">
-    {% if page.link %}
-        <p><a href="{{ page.link }}">{{ page.link }}</a></p>
-    {% endif %}
     <blockquote class="mb-6 mt-0 text-xl/8 text-gray-700">{{ page.callout }}</blockquote>
     <h4 class="mb-4">Project Background</h4>
     <p>{{ page.summary | markdownify  }}</p>
@@ -32,7 +32,7 @@ layout: default
         <h3 class="font-heading my-4">Design Process</h3>
         {% for x in page.process %}
         <div class="flex flex-col pb-6 gap-4 case-study__section-body">
-        <h4 class="mb-2">{{ x.phase }}</h4>
+        <h4 class="my-2">{{ x.phase }}</h4>
         <div class="flex md:flex-row flex-col gap-x-6">
             <div class="md:w-2/5 w-full pr-4">{{ x.description | markdownify }}</div>
             <div class="md:w-3/5 w-full pt-6 md:pt-0 md:px-4">

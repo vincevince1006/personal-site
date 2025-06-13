@@ -2,6 +2,7 @@
 title: NASA ProSAMS
 position: Designer, Researcher
 short_desc: SBIR-STTR funding application and management software for NASA's small business accelerator program.
+hero-img: nasa-hero.png
 year: 2022-2024
 postition: 'a'
 tags: [UI Design, Research, Web Application, Financial Data]
@@ -12,13 +13,13 @@ summary: |
     ProSAMS is responsible for distributing around $150 million in funds each year to over 300 different applicants, the program advances America's space technology competitiveness on the global stage and helps small businesses in that sector gain access to capital. 
 process: 
     - phase: Discovery
-      description: Starting from scratch with a UX researcher, we got to inverview scientists, policy-makers, and engineers at the forefront of NASA's technology infrastructure. These were folks who had received awards in the past, and NASA employees who were experts in the program's successes and current needs. The current web application, EHB, was over 30 years old and in desperate need for improvements.
+      description: Starting from scratch with a UX researcher, we got to interview scientists, policy-makers, and engineers at the forefront of NASA's technology infrastructure. These were folks who had received awards in the past, and NASA employees who were experts in the program's successes and current needs. The current web application, EHB, was over 30 years old and in desperate need for improvements.
       findings: 
         - Users felt like they spent too much time in the current EHB filling out applications because the system didn't break things down into smaller steps. 
         - Fearing data loss, a lot of users ended up working on their tasks in Word or outside software, then copying/pasting into the EHB. 
         - We had to build for data integrity and user convenience in the new system, while not breaking the application's flow that was mirroring policy requirements from the federal government.
-      image1: ""
-      image2: ""
+      image1: "/assets/images/case-study/nasa/ideation.png"
+      image2: "/assets/images/case-study/nasa/old-ehb.png"
     - phase: Ideation
       description: | 
         We drew up user personas and journey maps during each sprint before any mockups were made so that we had our target users in mind. This exercise also helped business analysts and engineers see that user needs were more than just a refreshed UI - these were people with a decent amount of technical experience but had frustration with the status quo. Our BAs were utilized for their in-depth product knowledge that helped us envision the roadmap for new features, and what to design based on their success criteria.
@@ -34,6 +35,6 @@ process:
         - We did an analysis of their other websites and matched both the typography and color palette while mimicking some of their pre-existing print graphics standards. 
         - Working with another designer, we came up with a division of workload while agreeing on layout, navigation, and other component standardizations. 
         - Aesthetics needed to be kept minimal to focus on meeting user expectations for data collection and NASA policies around SBIR-STTR data collection.
-      image1: "/assets/images/case-study/nasa/contract-details.png"
+      image1: "/assets/images/case-study/nasa/documentation.png"
       image2: "/assets/images/case-study/nasa/dashboard.png"
 ---
