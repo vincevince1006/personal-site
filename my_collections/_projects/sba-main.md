@@ -1,5 +1,5 @@
 ---
-title: SBA-SBIR (Small Business Innovation Research) Website
+title: SBA-SBIR Website
 position: Designer, Researcher, Development
 short_desc: The official website for the Small Business Administration's seed funding and investment program.
 hero-img: sba-main-hero.png
@@ -9,8 +9,12 @@ link: https://www.sbir.gov
 tags: [UI Design, Website, Drupal, Search Applications]
 layout: case-study
 callout: My team lead the re-design of the authoritative source for U.S. small business federal seed funding, moving it to a more modern, updated design. The client has continued to receive positive feedback, and noticably more user accounts created for SBIR-STTR applicants and awardees.
+
 summary: |
-    Congress appropriates around $4 Billion a year for SBIR-STTR funding awards that **small businesses can take advantage of for their projects**. To promote this program, their new website needed a revamped search tool, updated page content for applicants looking to utilize the program, and a better authoring process for more frequent site updates.
+  Congress appropriates around $4 Billion a year for SBIR-STTR funding awards that **small businesses can take advantage of for their projects**. To promote this program, their new website needed a revamped search tool, updated page content for applicants looking to utilize the program, and a better authoring process for more frequent site updates.
+noted-successes: |
+  The re-design coincided with multiple SBIR-STTR promotional events during the Biden Administration, and was showcased by the head of the program to encourage more applicants. **Increased click-through rates from reporting documents and other government website entities** were noted after the launch, along with feedback from the clients that users remarked positively upon the new look and feel. 
+
 reversed: true
 process: 
     - phase: Discovery
