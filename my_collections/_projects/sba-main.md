@@ -25,8 +25,8 @@ process:
       findings: 
         - The information architecture in it's former state didn't focus on applicant's true needs, and left a lot of users we spoke with unsure how to get started with SBA funding opportunities. 
         - The new site's content would need to speak to applicants first, then bring in showcases of awards and more robust search applications for businesses looking for funding.
-      image1: "/assets/images/case-study/sba-website/old-site-2.png"
-      image2: "/assets/images/case-study/sba-website/old-site.png"
+      image1: "/assets/images/case-study/sba-website/new-site-1.png"
+      image2: "/assets/images/case-study/sba-website/new-site-2.png"
 
     - phase: Ideation
       description: |
@@ -47,6 +47,7 @@ process:
         - We would have a robust design system to work with, but from the ground up added consistent design patterns to the new Drupal instance for the site. 
         - Data visualizations, illustrations, dynamic search components, and other modern features would be top priority to earn back user trust.
         - Mobile design considerations were at the forefront of our choices as well, including how these complex search applications would perform on smaller screens and layout configurations to tackle pages with a lot of dynamic content.
+      image1: "/assets/images/case-study/sba-website/events-listing.png"
 
     - phase: Development
       description: | 
@@ -54,8 +55,7 @@ process:
       findings: 
         - USWDS made the design system building process easy and intuitive, creating a language used across the site that now ensures consistent margins, paddings, and dimensions for visual repetition coupled with the new SBA branding. 
         - To better integrate with the needs of a large design system, I built a Gulp 4 instance that compiles assets and reduces developer time when there's requests for new features. 
-      image1: "/assets/images/case-study/sba-website/new-site-1.png"
-      image2: "/assets/images/case-study/sba-website/new-site-2.png"
+
 
 ---
 

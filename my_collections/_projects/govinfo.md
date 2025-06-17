@@ -11,7 +11,9 @@ layout: case-study
 callout: I helped take a product overhaul from it's initial launch into the next iterations based on the client and agency's vision. The site soon became a better resource for congressional researchers and librarians, with a boost in overall traffic and more citations from the tools and metadata changes we integrated.
 
 summary: |
-      This product is one of the U.S. Government's official repositories for regulatory and agency data. Govinfo was in need of further enhancements that didn't make it in the initial launch. The former designer had left the contract and, with my background in front-end development, I got a unique opportunity to develop new feature ideas and build them out in their development environments.
+    This product is one of the U.S. Government's official repositories for regulatory and agency data. Govinfo was in need of further enhancements that didn't make it in the initial launch. The former designer had left the contract and, with my background in front-end development, I got a unique opportunity to develop new feature ideas and build them out in their development environments.
+noted-successes: | 
+
 process: 
     - phase: Discovery
       description: | 
@@ -20,12 +22,15 @@ process:
         - The client identified more robust and improved metadata, creating a citation tool for our librarian and researcher users, and improved look/feel on components that didn't get more attention during the beta.
         - Responsive design features such as the typographic system and how search features showed up needed more work to be completely user-friendly. 
         - I needed to learn their CI/build process so I could implement code changes in absence of a dedicated front-end developer.
+      image1: "/assets/images/case-study/govinfo/screen1.png"
+      image2: "/assets/images/case-study/govinfo/homepage.png"
     - phase: Ideation
       description: | 
         Each sprint I had a session with rough wireframing for new features and diagrams to get a feel for how users searched within the system. I learned more about how librarians and researchers utilized the system's APIs and metadata, which would inform the new citation tools and search improvements. I also experimented with some emerging patterns and standards from the U.S. Web Design system after it had started reaching product maturity.
       findings: 
         - While they didn't want to utilize the USWDS components yet, enhancements could follow in the spirit of it. 
         - Design garnishes to make the site more modern and appealing were approved by way of typography, more responsive navigation menus, verification modals, and smooth animation sequences for interactive elements.
+      image1: "/assets/images/case-study/govinfo/modal-citation.png"
     - phase: Design and Development
       description: | 
         I did interactive Adobe XD prototypes (this was before Figma was government approved) to help federal clients have more of a vision for product enhancements, but also created static code prototypes for communicating with engineers. After getting sign off it was up to me to collaborate with the technical folks to write Backbone.js code and navigate their development ecosystem to add new features and components. We focused not only on the design cohesion, but also Section 508 accessibility which hadn't been a primary focus before.
