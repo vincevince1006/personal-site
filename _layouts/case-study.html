@@ -49,11 +49,11 @@ layout: default
         {% if x.image1 %}
         <div class="flex md:flex-row flex-col gap-x-6 justify-center">
             <div class="{% if x.image2 %}md:w-2/4{% else %}md:w-3/4{% endif %} my-4 px-4">
-                <img src="{{ x.image1 }}"/>
+                <img class="max-w-md " src="{{ x.image1 }}"/>
             </div>
             {% if x.image2 %}
             <div class="md:w-2/4 my-4 px-4">
-                <img src="{{ x.image2 }}"/>
+                <img class="max-w-md " src="{{ x.image2 }}"/>
             </div>
             {% endif %}
         </div>
