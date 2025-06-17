@@ -31,7 +31,6 @@ process:
         - While they didn't want to utilize the USWDS components yet, enhancements could follow in the spirit of it. 
         - Design garnishes to make the site more modern and appealing were approved by way of typography, more responsive navigation menus, verification modals, and smooth animation sequences for interactive elements.
       image1: "/assets/images/case-study/govinfo/modal-citation.png"
-      image2: "/assets/images/case-study/govinfo/iphone-search.png"
     - phase: Design and Development
       description: | 
         I did interactive Adobe XD prototypes (this was before Figma was government approved) to help federal clients have more of a vision for product enhancements, but also created static code prototypes for communicating with engineers. After getting sign off it was up to me to collaborate with the technical folks to write Backbone.js code and navigate their development ecosystem to add new features and components. We focused not only on the design cohesion, but also Section 508 accessibility which hadn't been a primary focus before.
