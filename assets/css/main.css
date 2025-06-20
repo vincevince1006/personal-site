@@ -9,6 +9,7 @@
     :root {
         --color-primary: #78290F;
         --color-text: #06121A;
+        --color-links: #145b66;
     }
     html {
         font-family: "Red Hat Display", sans-serif;
@@ -39,6 +40,11 @@
     }
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+}
+
 .slanted-edge {
     --p: 70px;
     height: 100px;
@@ -64,4 +70,13 @@
 
 .case-study__section-body p {
     margin-bottom: 1rem;
+}
+
+.case-study__section-body a {
+    text-decoration: underline;
+    color: var(--color-links);
+}
+
+.case-study__img:hover {
+    cursor: url("/assets/images/link.png"), auto;
 }

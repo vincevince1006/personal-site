@@ -24,7 +24,9 @@ process:
         - Data was inconsistently collected across multiple federal agency APIs. 
         - Huge value adds for the new product would be implementing a standard UI system, and providing better navigational landmarks so users didn't feel lost. 
         - There was certainly frustration around the question of "where am I?".
-      image1: "/assets/images/case-study/sba-portal/old-dashboard.png"
+      image1: "/assets/images/case-study/sba-portal/agency-dash.png"
+      image2: "/assets/images/case-study/sba-portal/question-sample.png"
+
     - phase: Ideation
       description: | 
         We imagined a new system aligned with both the United States Web Design System (USWDS) framework and that had less ambiguous UI patterns. In addition, we crafted journey maps and worked with our business analysts to capture what the current system did, and how to best replicate it in the new one. 
@@ -43,16 +45,16 @@ process:
         - USWDS guided our initial decisions on the overall design, with customizations specific for SBA. 
         - We needed to include engineers early on in the prototypes and before going to the client for less ambiguity on development capabilities and product timeline. 
         - Shipping features quickly on a strict budget was a challenge. This project taught me how to better negotiate features for priority, and calculate trade-offs in a fast-paced sprint cadence.
-      image1: "/assets/images/case-study/sba-portal/agency-dash.png"
-      image2: "/assets/images/case-study/sba-portal/question-sample.png"
+      image1: "/assets/images/case-study/sba-portal/award-listing.png"
+      image2: "/assets/images/case-study/sba-portal/include-exclude.png"
     - phase: Development
       description: | 
         In addition to my design duties I also write front-end component code alongside an engineer to increase efficiencies. This is in a CI environment with a well-documented Git process, and I've seamless integrated with the engineering workflow. 
         
-        I was requested to take ownership of the HTML/SCSS semantics to ensure the interface is Section 508 compliant, has re-usable components, and matches the agreed upon mockups with QA testers. 
+        I was requested to take ownership of the HTML/SCSS semantics to ensure the interface is Section 508 compliant, has re-usable components, and matches the agreed upon mockups that QA testers use for validations. 
       findings: 
-      - The culture shift for engineers to get used to USWDS was a new challenge, requiring design diplomacy by way of working alongside them to write the code for each new feature set. 
-      - Having a designer like me on staff who could code help saved us time.
+      - The culture shift for engineers to get used to USWDS was a new challenge, requiring design diplomacy on my end and providing tutorials on how the design components worked and should be used.
+      - To meet our deadlines and keep the project on track budget-wise, I increased productivity by writing static front-end html/css components for integration by our engineers with the Angular application.
       - I got engineers thinking more about design systems and the importance they have on product launch successes.
 ---
 

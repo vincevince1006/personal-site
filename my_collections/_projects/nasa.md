@@ -10,7 +10,10 @@ layout: case-study
 callout: I was the lead UI designer on the initial phases of this re-launch of the NASA SBIR-STTR applicant funding portal. The project had us taking a product that had been with NASA for 35 years, giving it a complete UI overhaul, and designing the data management process for both the agency user and small business applicants.
 
 summary: |
-    ProSAMS is responsible for distributing around $150 million in funds each year to over 300 different applicants, the program advances America's space technology competitiveness on the global stage and helps small businesses in that sector gain access to capital. 
+  ProSAMS is responsible for distributing around **$150 million in funds each year to over 300 different applicants**, the program advances America's space technology competitiveness on the global stage and helps small businesses in that sector gain access to capital. 
+noted-successes: |
+  We launched the product within a major award cycle and it was noted that **less non-compliant proposals were being submitted by firms** than they had in the past, which saved NASA a lot of time and employee bandwidth during their proposal review process. Review cycle timeframes also improved compared to the former system, and there was a significant cost savings in moving the system to a more modern framework. 
+
 process: 
     - phase: Discovery
       description: Starting from scratch with a UX researcher, we got to interview scientists, policy-makers, and engineers at the forefront of NASA's technology infrastructure. These were folks who had received awards in the past, and NASA employees who were experts in the program's successes and current needs. The current web application, EHB, was over 30 years old and in desperate need for improvements.
