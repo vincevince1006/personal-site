@@ -39,6 +39,7 @@ process:
         - Constraints existed around available content for certain programs, we needed to figure out who the content owners were and what would be needed to tell the SBIR-STTR story. 
         - We decided to do data visualizations in Tableau and tap into our complex APIs for powering search, both of which would test our technical stack and ultimately deliver on the modernization effort.
       image1: "/assets/images/case-study/sba-website/ideation.png"
+      image2: "/assets/images/case-study/sba-website/ideation2.png"
 
     - phase: Design
       description: |
@@ -47,7 +48,8 @@ process:
         - We would have a robust design system to work with, but from the ground up added consistent design patterns to the new Drupal instance for the site. 
         - Data visualizations, illustrations, dynamic search components, and other modern features would be top priority to earn back user trust.
         - Mobile design considerations were at the forefront of our choices as well, including how these complex search applications would perform on smaller screens and layout configurations to tackle pages with a lot of dynamic content.
-      image1: "/assets/images/case-study/sba-website/events-listing.png"
+      image1: "/assets/images/case-study/sba-website/award-improve.png" 
+      image2: "/assets/images/case-study/sba-website/events-listing.png"
 
     - phase: Development
       description: | 
@@ -55,7 +57,6 @@ process:
       findings: 
         - USWDS made the design system building process easy and intuitive, creating a language used across the site that now ensures consistent margins, paddings, and dimensions for visual repetition coupled with the new SBA branding. 
         - To better integrate with the needs of a large design system, I built a Gulp 4 instance that compiles assets and reduces developer time when there's requests for new features. 
-
 
 ---
 

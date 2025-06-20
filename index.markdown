@@ -7,13 +7,13 @@ title: Homepage
     <div class="container py-6 md:mx-auto">
     <div class="max-w-5xl flex flex-col lg:gap-6 lg:justify-between mx-auto content-center">
         <div class="flex flex-col md:flex-row lg:my-4 lg:px-4 items-center">
-            <div class="flex w-full md:w-1/4 md:justify-center mb-6 md:mb-0">
+            <div class="flex w-full md:w-1/4 md:justify-center mb-6 md:mb-0 px-2 md:px-0">
                 <img class="w-48" src="/assets/images/profile.png" />
             </div>
             <div class="md:w-3/4 px-4">
                 <h2 class="font-heading">Vincent Dubay.</h2>
                 <p class="max-w-xl text-xl mt-2">I help lead the modernization of complex applications and websites through design best practices.</p>
-                <p class="max-w-xl mt-4">Launching new versions of outdated software is where I thrive. I facilitate cross-functional requirements gathering with clients, engineers, and business analysts, utilize and advocate for design systems, and can even write UI code for design cohesion.</p>
+                <p class="max-w-xl mt-4">Launching new versions of outdated software is where I thrive. I facilitate cross-functional requirements gathering with clients, engineers, and business analysts, utilize and advocate for design systems, and adapt my design process to get ideas quicker to production code.</p>
                 <div class="inline-flex gap-4 mt-4 mx-2">
                     <a href="https://www.linkedin.com/in/vincent-dubay-04108544/" target="_blank"><img class="size-6" src="/assets/images/linkedin.svg" alt="Icon: Linkedin" /><span class="sr-only">Linkedin</span></a>
                     <a href="https://dribbble.com/lordseagull/" target="_blank"><img class="size-6" src="/assets/images/dribbble.svg" alt="Icon: Dribbble" /><span class="sr-only">Dribbble</span></a>
