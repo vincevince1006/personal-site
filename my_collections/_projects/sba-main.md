@@ -13,7 +13,7 @@ callout: My team lead the re-design of the authoritative source for U.S. small b
 summary: |
   Congress appropriates around $4 Billion a year for SBIR-STTR funding awards that **small businesses can take advantage of for their projects**. To promote this program, their new website needed a revamped search tool, updated page content for applicants looking to utilize the program, and a better authoring process for more frequent site updates.
 noted-successes: |
-  The re-design coincided with multiple SBIR-STTR promotional events during the Biden Administration, and was showcased by the head of the program to encourage more applicants. **Increased click-through rates from reporting documents and other government website entities** were noted after the launch, along with feedback from the clients that users remarked positively upon the new look and feel. 
+  The re-design coincided with multiple SBIR-STTR promotional events during the Biden Administration, and was showcased by the head of the program to encourage more applicants. **Feedback from the clients that users remarked positively upon the new look and feel.** The program experienced more applicants and general interest in it's offerings, coupled with new initiatives to support U.S. Small Businesses such as am interactive resource library. 
 
 reversed: true
 process: 
