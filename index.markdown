@@ -11,9 +11,10 @@ title: Homepage
                 <img class="w-48" src="/assets/images/profile.png" />
             </div>
             <div class="md:w-3/4 px-4">
-                <h2 class="font-heading">Vincent Dubay.</h2>
-                <p class="max-w-xl text-xl mt-2">I help lead the modernization of complex applications and websites through design best practices.</p>
-                <p class="max-w-xl mt-4">Launching new versions of outdated software is where I thrive. I facilitate cross-functional requirements gathering with clients, engineers, and business analysts, utilize and advocate for design systems, and adapt my design process to get ideas quicker to production code.</p>
+                <h1 class="font-heading site-text-3xl">Vincent Dubay.</h1>
+                <p class="max-w-xl mt-2 mb-2">I lead the modernization and UI/UX design for large-scale applications and websites. My background is in enterprise software along with the civic tech sector.</p>
+                <p class="max-w-xl">I have skills in UI design systems, user research, accessibility, and stakeholder management.</p>
+                <!--<p class="max-w-xl mt-2">I facilitate cross-functional requirements gathering with clients, engineers, and business analysts, utilize and advocate for design systems, and adapt my design process to get ideas quicker to production code. I lead the modernization of complex applications and websites through design best practices. </p>-->
                 <div class="inline-flex gap-4 mt-4 mx-2">
                     <a href="https://www.linkedin.com/in/vincent-dubay-04108544/" target="_blank"><img class="size-6" src="/assets/images/linkedin.svg" alt="Icon: Linkedin" /><span class="sr-only">Linkedin</span></a>
                     <a href="https://dribbble.com/lordseagull/" target="_blank"><img class="size-6" src="/assets/images/dribbble.svg" alt="Icon: Dribbble" /><span class="sr-only">Dribbble</span></a>
@@ -27,28 +28,26 @@ title: Homepage
 </section>
 
 <div class="px-4">
-    <div class="max-w-3xl lg:max-w-5xl decorative-divider mx-auto px-2 rounded-md"></div>
+    <div class="max-w-3xl lg:max-w-5xl decorative-divider morphing-gradient-smooth mx-auto px-2 rounded-md"></div>
 </div>
 
 <section class="max-w-5xl flex flex-col py-6 mx-4 md:mx-auto">
     <div class="container mx-auto my-4">
-        <h3 class="font-heading">Portfolio</h3>
-    </div>
-    <div class="container mx-auto my-4">
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-8 homepage-card">
     {% assign sorted_projects = site.projects | sort: 'position' | reverse %}
     {% for project in sorted_projects %}
             <a class="bg-white rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow" href="{{project.url}}">
             <img class="rounded-tr-lg rounded-tl-lg" src="/assets/images/{{ project.hero-img }}" />
             <div class="p-8">
-                <h4 class="font-semibold mb-4">{{project.title}}</h4>
+                <div class="homepage-card__title">
+                    <h2 class="font-semibold mb-4">{{project.title}}</h2>
+                </div>
                 <p class="mb-4">{{project.short_desc}}</p>
                 <ul class="flex flex-wrap flex-row mb-6">
                 {% for tag in project.tags %}
                     <li class="px-2 my-1 mr-2 bg-slate-100 rounded-lg border-gray-200 border"><small>{{ tag }}</small></li>
                 {% endfor %} 
                 </ul>
-                    <p class="inline-block border-primary border-b-4 pb-2 px-2 bg-white">Case Study &rarr;</p>
             </div>
             </a>
     {% endfor %}

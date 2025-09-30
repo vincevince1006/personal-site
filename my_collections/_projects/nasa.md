@@ -1,18 +1,24 @@
 ---
 title: NASA ProSAMS
+number: 2
 position: Designer, Researcher
+role: UI/UX Designer
+client: NASA Ames Research Center
+users: Aerospace Companies, Laboratories, Federal Data Analysts
+team: Project Manager, two (2) Business Analysts, four (4) Developers, Junior UX Designer, Content Strategist, UX Researcher
 short_desc: SBIR-STTR funding application and management software for NASA's small business accelerator program.
 hero-img: nasa-hero.png
 year: 2022-2024
 postition: 'a'
 tags: [UI Design, Research, Web Application, Financial Data]
 layout: case-study
-callout: I was the lead UI designer on the initial phases of this re-launch of the NASA SBIR-STTR applicant funding portal. The project had us taking a product that had been with NASA for 35 years, giving it a complete UI overhaul, and designing the data management process for both the agency user and small business applicants.
+callout: I was the lead UI designer on the initial phases of this re-launch of the NASA SBIR-STTR applicant funding portal (ProSAMS). The project had my team taking a product that had been with NASA for 35 years, giving it a complete UI overhaul, and designing the data management process for both the agency user and small business applicants.
+context: Brought a legacy product for NASA into a more modern framework and design, laying the groundwork for a larger modernization effort alongside a cross-functional team.
 
 summary: |
-  ProSAMS is responsible for distributing around **$150 million in funds each year to over 300 different applicants**, the program advances America's space technology competitiveness on the global stage and helps small businesses in that sector gain access to capital. 
+  ProSAMS is responsible for distributing around **$150 million each year to over 300 different applicants** and is the software that manages the proposal review process. The program ultimately aims to advance America's space technology competitiveness by giving small businesses access to funding.
 noted-successes: |
-  We launched the product within a major award cycle and it was noted that **less non-compliant proposals were being submitted by firms** than they had in the past, which saved NASA a lot of time and employee bandwidth during their proposal review process. Review cycle timeframes also improved compared to the former system, and there was a significant cost savings in moving the system to a more modern framework. 
+  We launched this new product within a major award cycle and it was noted that **less non-compliant funding proposals were being submitted by firms** than in the past, which saved NASA both time and employee bandwidth during the proposal review process. Review cycle timeframes also improved compared to the former system, and there was **a significant cost savings** in moving the system to a more lean, modern framework. 
 
 process: 
     - phase: Discovery
@@ -33,9 +39,9 @@ process:
       image2: "/assets/images/case-study/nasa/design-system.png"
     - phase: Design
       description: | 
-        There was going to be a lot of screens for each release. Our product managers had to adjust release timelines based on client expectations. Therefore, a simple, re-usable design system that focused on the essential form elements and could be broken down easily for mobile would be our best bet. We on-boarded the new developers to the USWDS design system, showing how a lot of elements were already built out and could easily be blended in with the layout customizations for ProSAMS. 
+        There was going to be a lot of screens for each release. Our product managers had to adjust release timelines based on client expectations. Therefore, a simple, re-usable design system that focused on the essential form elements and could be broken down easily for mobile would be our best bet. We on-boarded the new developers to the U.S. Web Design System (USWDS), showing how a lot of elements were already built out and could easily be blended in with the layout customizations for ProSAMS. 
       findings:
-        - NASA didn't have an official web design standards document when we started
+        - NASA didn't have an official web design standards document when we started.
         - We did an analysis of their other websites and matched both the typography and color palette while mimicking some of their pre-existing print graphics standards. 
         - Working with another designer, we came up with a division of workload while agreeing on layout, navigation, and other component standardizations. 
         - Aesthetics needed to be kept minimal to focus on meeting user expectations for data collection and NASA policies around SBIR-STTR data collection.

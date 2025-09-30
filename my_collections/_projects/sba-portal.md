@@ -1,13 +1,19 @@
 ---
 title: SBA-SBIR (Small Business Innovation Research) Data Reporting Portal
+number: 4
 position: Designer, Researcher, Development
 short_desc: Central data management tool for all recipients of federal SBIR/STTR funding. 
 hero-img: sba-app-hero.png
-year: 2022-present
+year: 2022-2025
 postition: 'c'
 tags: [UI Design, Web Application, Angular, Sensitive Data]
 layout: case-study
 callout: I helped make the SBIR-STTR grant management software easier for businesses and federal agencies to track their dollar amounts, solicit funding opportunities, and visualize the success of their grants and awards.
+context: Managed the design overhaul of an enterprise-level application that collects mission-critical SBA data for Congressional reports.
+
+role: Design Lead
+client: Small Business Administration
+users: 
 
 summary: |
     In 2021, the total amount distributed was around **$4 Billion** from over **6,000 awards**. This application manages the collection and display of award data to help businesses see their overall project funding and track commercialization. This same data is then reported to Congress to lobby for additional program funding.
@@ -33,14 +39,14 @@ process:
         
         Constraints were evident in our resource allocation - engineers would be doing front-end development while building new APIs and search appliances for the refreshed main website (sbir.gov), so they were a big part of the conversations to inform our design choices and timeline.
       findings: 
-        - Policy and agency language standards would be a big factor in our design decisions. 
-        - The journey maps revealed solicitation development, and getting data ready for reporting, was a lengthy process. 
-        - We had to be mindful of how much our design requests deviated from what USWDS could do out-of-the-box due to engineering constraints.
+        - Policy, agency-wide branding guidance, and federal plain language standards would be a big factor in our design decisions. 
+        - The journey maps revealed solicitation development, and getting data ready for reporting, was a lengthy process. We would need to partner with the client to refine the requirements and cut through ambiguity.  
+        - We had to be mindful of how much our design requests deviated from what USWDS could do out-of-the-box due to engineering resource constraints.
       image1: "/assets/images/case-study/sba-portal/admin-diagram.png"
       image2: "/assets/images/case-study/sba-portal/award-timeline-diagram.png"
     - phase: Design
       description: | 
-        I spearheaded moving the project into Figma from another piece of software, and have been able to evangelize the concept of a design system to the product team. For future enhancements, we want to directly integrate our Figma components with our front-end build process and other AI enhancements for quicker prototyping. The researcher has also left the team, so I've taken over requirements gathering alongside our business analyst for future enhancements and design choices.
+        I spearheaded moving the project into Figma from a different design software, and have been able to evangelize the concept of a design system to the product team. For future enhancements, I suggested directly integrating the Figma components with a front-end build process and other AI enhancements for quicker prototyping. The researcher also left the team, so for about a year I took over requirements gathering alongside our business analyst for future enhancements and design choices.
       findings:
         - USWDS guided our initial decisions on the overall design, with customizations specific for SBA. 
         - We needed to include engineers early on in the prototypes and before going to the client for less ambiguity on development capabilities and product timeline. 
