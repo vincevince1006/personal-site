@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="max-w-5xl flex flex-col my-4 mx-4 md:mx-auto">
+<section class="max-w-7xl flex flex-col my-4 mx-4 md:mx-auto">
 <div class="container mx-auto my-4">
 
 <p class="my-4"><small><a class="underline text-teal" href="/">&larr; Back to Portfolio</a></small></p>
@@ -13,19 +13,44 @@ layout: default
             <li class="px-2 mr-4 mb-2 bg-slate-100 rounded-lg border-gray-200 border"><small>{{ tag }}</small></li>
         {% endfor %} 
     </ul>
-<p class="mb-2"><small class="font-bold text-primary">{{ page.year }}</small></p>
-    {% if page.link %}
-        <p class="mb-4"><a class="underline text-teal" href="{{ page.link }}">Visit Website</a></p>
-    {% endif %}
-<h2 class="font-heading">{{ page.title }}</h2>
 </section>
 
-<section class="lg:w-3/5 my-6">
-    <blockquote class="mb-6 mt-0 text-xl/8 text-gray-700">{{ page.callout }}</blockquote>
-    <h4 class="mb-4">Project Background</h4>
-    <p>{{ page.summary | markdownify  }}</p>
-    <h4 class="my-4">Noted Successes</h4>
-    <p>{{ page.noted-successes | markdownify }}</p>
+<h2 class="font-heading">{{ page.title }}</h2>
+    <div class="flex flex-row">
+    <p class="mt-2 mr-4"><span class="font-bold text-primary">{{ page.year }}</span></p>
+    {% if page.link %}
+    <p class="mt-2"><a class="underline text-teal" href="{{ page.link }}">Visit Website</a></p>
+    {% endif %}
+    </div>
+<p class="lg:w-3/5 mb-6 mt-4 site-text-lg text-gray-700">{{ page.context }}</p>
+
+<section class="flex flex-col lg:flex-row">
+    <div class="w-full lg:w-3/5 my-4 pr-8">
+        <h4 class="mb-4">Background</h4>
+        <p>{{ page.summary | markdownify }}</p>
+        <h4 class="my-4">Successes</h4>
+        <p>{{ page.noted-successes | markdownify }}</p>
+    </div>
+
+    {% comment %} <div class="modern-card h-full lg:w-2/5 border-dashed border-2 border-gray-200">
+    <div class="card-content p-8">
+        <div>
+            <div class="mb-4">
+                <h5 class="font-bold"><span class="text-gray-400 italic mr-1">Role</span> {{ page.role }}</h5>
+            </div>
+            <div class="mb-2">
+                <p class="mb-1 text-gray-700"><span class="text-gray-400 italic mr-1">Client</span> {{ page.client }}</p>
+            </div>
+            <div class="mb-2">
+                <p class="mb-1 text-gray-700"><span class="text-gray-400 italic mr-1">Primary Users</span> {{ page.users }}</p>
+            </div>
+            <div class="mb-2">
+                <p class="mb-1 text-gray-700"><span class="text-gray-400 italic mr-1">Team</span> {{ page.team }}</p>
+            </div>
+        </div>
+    </div> 
+    </div>
+    {% endcomment %}
 </section>
 
 {% if page.process %}
@@ -62,6 +87,11 @@ layout: default
         {% endfor %}
     </div>
 </section>
+{% endif %}
+{% if page.lessons %}
+    <div class="mt-10">
+        <h3 class="font-heading my-4">What I learned, and would do differently</h3>
+    </div>
 {% endif %}
 
 </div>
