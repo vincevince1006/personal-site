@@ -13,7 +13,6 @@ title: Homepage
             <div class="md:w-3/4 px-4">
                 <h1 class="font-heading site-text-3xl">Vincent Dubay.</h1>
                 <p class="max-w-xl mt-2 mb-2">I lead the modernization and UI/UX design for large-scale applications and websites. My background is in enterprise software along with the civic tech sector.</p>
-                <p class="max-w-xl">I have skills in UI design systems, user research, accessibility, and stakeholder management.</p>
                 <!--<p class="max-w-xl mt-2">I facilitate cross-functional requirements gathering with clients, engineers, and business analysts, utilize and advocate for design systems, and adapt my design process to get ideas quicker to production code. I lead the modernization of complex applications and websites through design best practices. </p>-->
                 <div class="inline-flex gap-4 mt-4 mx-2">
                     <a href="https://www.linkedin.com/in/vincent-dubay-04108544/" target="_blank"><img class="size-6" src="/assets/images/linkedin.svg" alt="Icon: Linkedin" /><span class="sr-only">Linkedin</span></a>
