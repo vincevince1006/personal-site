@@ -28,7 +28,9 @@ process:
         - Fearing data loss, a lot of users ended up working on their tasks in Word or outside software, then copying/pasting into the EHB. 
         - We had to build for data integrity and user convenience in the new system, while not breaking the application's flow that was mirroring policy requirements from the federal government.
       image1: "/assets/images/case-study/nasa/ideation.png"
+      image1alt: "Digital whiteboard showing screen flows and notes for NASA ProSAMS, from the dashboard to contract and deliverable pages"
       image2: "/assets/images/case-study/nasa/old-ehb.png"
+      image2alt: "Former, decomissioned NASA web application deliverables tab showing a final life cycle certification deliverable and its certification text"
     - phase: Ideation
       description: | 
         We drew up user personas and journey maps during each sprint before any mockups were made so that we had our target users in mind. This exercise also helped business analysts and engineers see that user needs were more than just a refreshed UI - these were people with a decent amount of technical experience but had frustration with the status quo. Our BAs were utilized for their in-depth product knowledge that helped us envision the roadmap for new features, and what to design based on their success criteria.
@@ -36,7 +38,9 @@ process:
         - In the midst of getting a feel for the future of the ProSAMS interface and user journey, the client changed the framework they wanted to use from Angular to React. 
         - We identified potential design constraints early on with the team's technical lead by including them in on our design whiteboarding sessions, and then adjusting our expectations before we sunk any time into prototypes.
       image1: "/assets/images/case-study/nasa/persona-map.png"
+      image1alt: "NASA user persona for a resource analyst and reviewer, with goals and responsibilities, and a user journey map covering login, assigning reviewers, screening, ranking, and monitoring proposals"
       image2: "/assets/images/case-study/nasa/design-system.png"
+      image2alt: "Design system developed in Figma for the NASA application"
     - phase: Design
       description: | 
         There was going to be a lot of screens for each release. Our product managers had to adjust release timelines based on client expectations. Therefore, a simple, re-usable design system that focused on the essential form elements and could be broken down easily for mobile would be our best bet. We on-boarded the new developers to the U.S. Web Design System (USWDS), showing how a lot of elements were already built out and could easily be blended in with the layout customizations for ProSAMS. 
@@ -46,5 +50,7 @@ process:
         - Working with another designer, we came up with a division of workload while agreeing on layout, navigation, and other component standardizations. 
         - Aesthetics needed to be kept minimal to focus on meeting user expectations for data collection and NASA policies around SBIR-STTR data collection.
       image1: "/assets/images/case-study/nasa/subtopic-mockup.png"
+      image1alt: "NASA webpage showing subtopic information and ratings on proposals"
       image2: "/assets/images/case-study/nasa/dashboard.png"
+      image2alt: "NASA dashboard showing in-progress proposals"
 ---

@@ -8,17 +8,16 @@ title: Homepage
     <div class="max-w-5xl flex flex-col lg:gap-6 lg:justify-between mx-auto content-center">
         <div class="flex flex-col md:flex-row lg:my-4 lg:px-4 items-center">
             <div class="flex w-full md:w-1/4 md:justify-center mb-6 md:mb-0 px-2 md:px-0">
-                <img class="w-48" src="/assets/images/profile.png" />
+                <img class="w-48" src="/assets/images/profile.png" alt="Portrait of Vincent Dubay" />
             </div>
             <div class="md:w-3/4 px-4">
                 <h1 class="font-heading site-text-3xl">Vincent Dubay.</h1>
                 <p class="max-w-xl mt-2 mb-2">I lead the modernization and UI/UX design for large-scale applications and websites. My background is in enterprise software along with the civic tech sector.</p>
                 <!--<p class="max-w-xl mt-2">I facilitate cross-functional requirements gathering with clients, engineers, and business analysts, utilize and advocate for design systems, and adapt my design process to get ideas quicker to production code. I lead the modernization of complex applications and websites through design best practices. </p>-->
                 <div class="inline-flex gap-4 mt-4 mx-2">
-                    <a href="https://www.linkedin.com/in/vincent-dubay-04108544/" target="_blank"><img class="size-6" src="/assets/images/linkedin.svg" alt="Icon: Linkedin" /><span class="sr-only">Linkedin</span></a>
-                    <a href="https://dribbble.com/lordseagull/" target="_blank"><img class="size-6" src="/assets/images/dribbble.svg" alt="Icon: Dribbble" /><span class="sr-only">Dribbble</span></a>
-                    <a href="https://github.com/vincevince1006" target="_blank"><img class="size-6" src="/assets/images/github.svg" alt="Icon: Github" /><span class="sr-only">Github</span></a>
-                    <a href="mailto:vincevince1006@gmail.com" target="_blank"><img class="size-6" src="/assets/images/email.svg" alt="Icon: Email me" /><span class="sr-only">Email me</span></a>
+                    <a href="https://www.linkedin.com/in/vincent-dubay-04108544/" target="_blank"><img class="size-6" src="/assets/images/linkedin.svg" alt="" /><span class="sr-only">Linkedin</span></a>
+                    <a href="https://github.com/vincevince1006" target="_blank"><img class="size-6" src="/assets/images/github.svg" alt="" /><span class="sr-only">Github</span></a>
+                    <a href="mailto:vincevince1006@gmail.com" target="_blank"><img class="size-6" src="/assets/images/email.svg" alt="" /><span class="sr-only">Email me</span></a>
                 </div>
             </div>
         </div>
@@ -36,7 +35,7 @@ title: Homepage
     {% assign sorted_projects = site.projects | sort: 'position' | reverse %}
     {% for project in sorted_projects %}
             <a class="bg-white rounded-lg shadow-md border border-gray-200 hover:shadow-lg transition-shadow" href="{{project.url}}">
-            <img class="rounded-tr-lg rounded-tl-lg" src="/assets/images/{{ project.hero-img }}" />
+            <img class="rounded-tr-lg rounded-tl-lg" src="/assets/images/{{ project.hero-img }}" alt=""/>
             <div class="p-8">
                 <div class="homepage-card__title">
                     <h2 class="font-semibold mb-4">{{project.title}}</h2>

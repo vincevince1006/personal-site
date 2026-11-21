@@ -33,7 +33,9 @@ process:
         - The information architecture in it's former state didn't focus on applicant's true needs, and left a lot of users we spoke with unsure how to get started with SBA funding opportunities. 
         - The new site's content would need to speak to applicants first, then bring in showcases of awards and a more robust search experience for businesses looking for funding.
       image1: "/assets/images/case-study/sba-website/new-site-1.png"
+      image1alt: "SBIR-STTR website homepage"
       image2: "/assets/images/case-study/sba-website/new-site-2.png"
+      image2alt: "SBIR-STTR website showing participating agencies"
 
     - phase: Ideation
       description: |
@@ -46,7 +48,9 @@ process:
         - Constraints existed around available content for certain programs, we needed to figure out who the content owners were and what would be needed to tell the SBIR-STTR story. 
         - We decided to do data visualizations in Tableau and tap into our complex APIs for powering search, both of which would test our technical stack and enhance the site's data streams and integrations.
       image1: "/assets/images/case-study/sba-website/ideation.png"
+      image1alt: "Ideation digital whiteboard showing how screens can flow on SBIR-STTR site"
       image2: "/assets/images/case-study/sba-website/ideation2.png"
+      image2alt: "Ideation digital whiteboard showing award screen flows"
 
     - phase: Design
       description: |
@@ -56,7 +60,9 @@ process:
         - Data visualizations, illustrations, dynamic search components, and other modern features would be top priority to earn back user trust.
         - Mobile design considerations were at the forefront of our choices as well, including how these complex search applications would perform on smaller screens and layout configurations to tackle pages with a lot of dynamic content.
       image1: "/assets/images/case-study/sba-website/award-improve.png" 
+      image1alt: "SBIR.gov award detail page showing the award abstract, awardee information, award schedule timeline, and contacts"
       image2: "/assets/images/case-study/sba-website/events-listing.png"
+      image2alt: "SBIR.gov News and Events page with search, date, state, and agency filters and a list of upcoming events"
 
     - phase: Development
       description: | 

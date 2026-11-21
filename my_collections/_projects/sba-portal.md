@@ -31,7 +31,9 @@ process:
         - Huge value adds for the new product would be implementing a standard UI system, and providing better navigational landmarks so users didn't feel lost. 
         - There was certainly frustration around the question of "where am I?".
       image1: "/assets/images/case-study/sba-portal/agency-dash.png"
+      image1alt: "SBIR.gov Agency Upload Portal with file upload options for topics, awards and proposals, and additional obligations, followed by a list of recent uploads and their status"
       image2: "/assets/images/case-study/sba-portal/question-sample.png"
+      image2alt: "SBIR portal registration form with radio button questions on ownership and control and company size, and a registration checklist"      
 
     - phase: Ideation
       description: | 
@@ -43,7 +45,9 @@ process:
         - The journey maps revealed solicitation development, and getting data ready for reporting, was a lengthy process. We would need to partner with the client to refine the requirements and cut through ambiguity.  
         - We had to be mindful of how much our design requests deviated from what USWDS could do out-of-the-box due to engineering resource constraints.
       image1: "/assets/images/case-study/sba-portal/admin-diagram.png"
+      image1alt: "Digital whiteboard of administration page flows"
       image2: "/assets/images/case-study/sba-portal/award-timeline-diagram.png"
+      image2alt: "Digital whiteboard of award timeline page look and feel"
     - phase: Design
       description: | 
         I spearheaded moving the project into Figma from a different design software, and have been able to evangelize the concept of a design system to the product team. For future enhancements, I suggested directly integrating the Figma components with a front-end build process and other AI enhancements for quicker prototyping. The researcher also left the team, so for about a year I took over requirements gathering alongside our business analyst for future enhancements and design choices.
@@ -52,7 +56,9 @@ process:
         - We needed to include engineers early on in the prototypes and before going to the client for less ambiguity on development capabilities and product timeline. 
         - Shipping features quickly on a strict budget was a challenge. This project taught me how to better negotiate features for priority, and calculate trade-offs in a fast-paced sprint cadence.
       image1: "/assets/images/case-study/sba-portal/award-listing.png"
+      image1alt: "Annual report award listing step showing filters for title, tracking number, contract number, phase, and obligation, with a list of awards marked as included"
       image2: "/assets/images/case-study/sba-portal/include-exclude.png"
+      image2alt: "Annual report award timeline step with Phase I and Phase II timing metrics, each with a button to exclude or include awards"
     - phase: Development
       description: | 
         In addition to my design duties I also write front-end component code alongside an engineer to increase efficiencies. This is in a CI environment with a well-documented Git process, and I've seamless integrated with the engineering workflow. 
