@@ -27,7 +27,9 @@ process:
         - The site's responsive design, such as the typographic system and how search features showed up on smaller screens, needed a designer's eye to be more balanced. 
         - I did an audit to find accessibility problems and the site needed a lot of changes to meet set government compliance.
       image1: "/assets/images/case-study/govinfo/screen1.png"
+      image1alt: "House Committee on Appropriations collection page on govinfo.gov, with the 119th Congress expanded to show a committee report and its PDF, text, and details download links"
       image2: "/assets/images/case-study/govinfo/homepage.png"
+      image2alt: "Homepage of govinfo.gov"
     - phase: Feature Brainstorming and Ideation
       description: | 
         Each sprint I had a session with rough wireframing for new features and diagrams. I reviewed backlog items with user feedback to  get a feel for how users searched within the system. 
@@ -39,8 +41,9 @@ process:
         - While they didn't want to utilize the USWDS components yet, enhancements could follow in the spirit of it.
         - Users couldn't find Govinfo content through organic search and there was no easy way to generate citations.
         - Typography, more responsive navigation menus, verification modals, and smooth animation sequences for interactive elements would help in the modernization effort.
-      image1: "/assets/images/case-study/govinfo/modal-citation.png"
+      image1alt: "Citations generation for govinfo document, chicago, APA, and MLA styles"
       image2: "/assets/images/case-study/govinfo/search-page-normal.png"
+      image2alt: "Sample search page from govinfo.gov with results from a simple query"
     - phase: Design and Development
       description: | 
         I did interactive prototypes to help federal clients have more of a vision for product enhancements. 
@@ -53,6 +56,8 @@ process:
         - They didn't have a style guide or library to pull from, so I spearheaded creating documentation in Fractal.js, a front-end design style guide system, to show what changes were being made and their impacts on other components. This got their entire branding and design system into one place for better analysis.
         - By the end of my time on the project, the team finally had one design system shared across two products, and this made it easier to keep choices straight for future enhancements as well as uniform components to pull from.
       image1: "/assets/images/case-study/govinfo/basic-page.png"
+      image1alt: "Govinfo.gov Policies page with side navigation and sections on access content packages, permanent public access, and NARA preservation"
       image2: "/assets/images/case-study/govinfo/react-search-page.png"
+      image2alt: "Govinfo.gov site search results page showing paginated results for the query Military"
 ---
 

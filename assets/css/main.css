@@ -143,6 +143,10 @@
     .leading-relaxed { line-height: 1.75; }
 }
 
+body {
+    background-color: #FFFFFF;
+}
+
 header a {
     text-decoration: none;
 }

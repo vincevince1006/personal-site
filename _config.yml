@@ -18,10 +18,6 @@ collections:
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-postcss
-
-postcss:
-  cache: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -38,7 +34,7 @@ exclude:
 #   - Gemfile
    - Gemfile.lock
    - todo.md
-#   - node_modules/
+   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
